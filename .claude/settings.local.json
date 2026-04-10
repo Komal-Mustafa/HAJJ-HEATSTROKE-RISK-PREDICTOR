@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip --version)",
+      "Bash(npm --version)",
+      "Bash(pip install:*)",
+      "Bash(python -c \"import fastapi, sklearn, joblib, numpy; print\\('All packages OK'\\)\")"
+    ]
+  }
+}
